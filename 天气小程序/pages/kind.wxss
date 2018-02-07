@@ -3,13 +3,16 @@
 .item-wraaper-parent {
   background: white;
   margin-top: 20rpx;
+  position: relative;
 }
 
 .item-groupName-wrapper {
   display: flex;
   height: 100rpx;
   align-items: center;
-  position: relative;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  border-bottom: 1rpx solid #ddd;
 }
 
 .item-groupName-line1 {
@@ -24,7 +27,6 @@
 .item-icon {
   width: 28rpx;
   height: 28rpx;
-  margin-left: 30rpx;
 }
 
 .item-groupName {
@@ -38,15 +40,6 @@
 .item-arrow {
   width: 20rpx;
   height: 20rpx;
-  margin-right: 30rpx;
-}
-
-.item-groupName-line2 {
-  height: 1rpx;
-  background: #ddd;
-  margin-left: 30rpx;
-  margin-right: 30rpx;
-  display: flex;
 }
 
 .item-wraaper-child {
