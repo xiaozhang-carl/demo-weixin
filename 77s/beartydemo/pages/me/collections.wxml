@@ -1,0 +1,6 @@
+<!--pages/me/collections.wxml-->
+<view class="items-wraaper">
+  <view class="item-wraaper" wx:for="{{girls}}" wx:key="{{index}}" wx:item="{{item}}" data-item="{{item}}" bindtap="click">
+    <image class="item-icon" src="{{item.icon}}" mode='scaleToFill' />
+  </view>
+</view>

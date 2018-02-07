@@ -1,0 +1,15 @@
+<!--pages/view/search.wxml-->
+<view class="search-search">
+  <input class="search-search-input" bindinput="bindKeyInput" type="text" placeholder="这个是个bug" />
+  <text class="search-search-text" bindtap="search">搜索</text>
+</view>
+<view wx:if="{{list.length>0}}" wx:for="{{list}}" wx:key="{{index}}" wx:item="{{item}}">
+  <view class='item-wrapper' data-item="{{item}}" bindtap='goGithub'>
+    <label class='item-desc'>{{item.desc}}</label>
+    <text class='item-publishedAt'>{{item.publishedAt}}</text>
+  </view>
+</view>
+
+<view wx:if="{{list.length==0}}" class="empty-data">
+  <text class="empty-data-tip">啥也没有</text>
+</view>

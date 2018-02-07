@@ -1,0 +1,23 @@
+.items-wraaper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 24rpx;
+}
+
+.item-wraaper {
+  display: inline-block;
+  width: 220rpx;
+  height: 290rpx;
+}
+
+.item-icon {
+  display: block;
+  width: 220rpx;
+  height: 220rpx;
+}
+
+.item-name {
+  font-size: 26rpx;
+  color: 2B2B2B;
+}

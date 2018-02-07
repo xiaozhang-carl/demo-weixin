@@ -1,0 +1,5 @@
+<!--pages/view/switch.wxml-->
+<view class="body-view">
+  <switch unchecked bindchange="switch1Change" />
+  <switch unchecked bindchange="switch2Change" />
+</view>

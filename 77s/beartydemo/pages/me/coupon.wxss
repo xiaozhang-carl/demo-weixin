@@ -1,0 +1,70 @@
+/* pages/me/coupon.wxss */
+
+.header {
+  display: inline-block;
+  width: 100%;
+  height: 210rpx;
+}
+
+.items-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.item-wrapper {
+  margin-top: 20rpx;
+  position: relative;
+}
+
+.item-bg {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.item-content {
+  display: inline-block;
+  height: 230rpx;
+  width: 60%;
+  padding-left: 32rpx;
+  box-sizing: border-box;
+}
+
+.item-price {
+  display: block;
+  font-family: PingFangHK-Regular;
+  font-size: 72rpx;
+  color: #75aca3;
+  margin-top: 20rpx;
+}
+
+.item-desc {
+  display: block;
+  font-family: PingFangHK-Light;
+  font-size: 32rpx;
+  color: #fd779b;
+  margin-top: 20rpx;
+}
+
+.item-date {
+  display: block;
+  font-family: PingFangHK-Light;
+  font-size: 24rpx;
+  color: #9b9b9b;
+}
+
+.item-use {
+  font-family: PingFangHK-Regular;
+  font-size: 36rpx;
+  color: #75aca3;
+  position: absolute;
+  right: 66rpx;
+  top: 0;
+  bottom: 00;
+  margin: auto;
+  height: 1em;
+  line-height:1em
+}

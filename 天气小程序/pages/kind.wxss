@@ -1,0 +1,84 @@
+/* pages/kind.wxss */
+
+.item-wraaper-parent {
+  background: white;
+  margin-top: 20rpx;
+}
+
+.item-groupName-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.item-groupName-line1 {
+  display: inline-block;
+  width: 8rpx;
+  height: 100rpx;
+  background: #048cff;
+  position: absolute;
+  left: 0;
+}
+
+.item-icon {
+  width: 28rpx;
+  height: 28rpx;
+  margin-left: 30rpx;
+  margin-top: 34rpx;
+}
+
+.item-groupName-line2 {
+  height: 1rpx;
+  background: #ddd;
+  left: 30rpx;
+  top: 100rpx;
+  right: 30rpx;
+  margin: auto;
+  position: absolute;
+}
+
+.item-arrow {
+  width: 20rpx;
+  height: 20rpx;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 30rpx;
+  margin: auto;
+}
+
+.item-groupName {
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-family: SIL-Hei-Med-Jian;
+  font-size: 32rpx;
+  color: #333;
+  margin-left: 20rpx;
+}
+
+.item-wraaper-child {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 15rpx;
+}
+
+.item-childName {
+  display: inline-block;
+  margin: 15rpx;
+  width: 210rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  font-family: SIL-Hei-Med-Jian;
+  font-size: 28rpx;
+  color: #999;
+  border: 1rpx solid #999;
+  box-sizing: border-box;
+}
+
+.item-childName-checked {
+  color: #048cff;
+  border: 1rpx solid #048cff;
+}

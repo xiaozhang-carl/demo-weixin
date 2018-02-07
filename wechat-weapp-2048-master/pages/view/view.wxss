@@ -1,0 +1,29 @@
+.flex-wrp {
+  margin-top: 60rpx;
+  display: flex;
+}
+
+.flex-item {
+  width: 200rpx;
+  height: 300rpx;
+  font-size: 26rpx;
+  margin: 10rpx;
+}
+
+.flex-item-V {
+  margin: 10rpx;
+  width: 300rpx;
+  height: 200rpx;
+}
+
+.demo-text-1 {
+  background: red;
+}
+
+.demo-text-2 {
+  background: blue;
+}
+
+.demo-text-3 {
+  background: beige;
+}

@@ -1,0 +1,168 @@
+/* pages/home/home.wxss */
+
+.banners {
+  width: 100%;
+  height: 420rpx;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.bg {
+  background: white;
+  padding-bottom: 30rpx;
+}
+
+.menu-wrapper {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  position: relative;
+  margin-top: 24rpx;
+  margin-bottom: 36rpx;
+}
+
+.menu-name {
+  display: block;
+  height: 40rpx;
+  color: #1c1c1c;
+  font-size: 28rpx;
+}
+
+.menu-en {
+  display: block;
+  color: #686868;
+  height: 34rpx;
+  font-size: 24rpx;
+}
+
+.menu-line {
+  display: inline-block;
+  width: 2rpx;
+  height: 48rpx;
+  position: absolute;
+  background-color: #979797;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.home-img1 {
+  width: 100%;
+  height: 180rpx;
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+
+.home-img23-wrapper {
+  width: 100%;
+  display: flex;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+
+.home-img2, .home-img3 {
+  display: inline-block;
+  width: 50%;
+  height: 180rpx;
+}
+
+.home-img3 {
+  margin-left: 20rpx;
+}
+
+.beauty-items-team {
+  padding-top: 32rpx;
+  padding-left: 52rpx;
+  padding-bottom: 20rpx;
+  position: relative;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-width: 12rpx;
+  border-style: solid dashed dashed dashed;
+  border-color: #000 transparent transparent transparent;
+  box-sizing: border-box;
+  position: absolute;
+  left: 20rpx;
+  top: 54rpx;
+}
+
+.beauty-items {
+  font-size: 28rpx;
+  color: #2b2b2b;
+}
+
+.beauty-items-en {
+  font-size: 22rpx;
+  color: #6f6f6f;
+  margin-left: 10rpx;
+}
+
+.beauty-items-wrapper {
+  width: 100%;
+  display: block;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  box-sizing: border-box;
+}
+
+.beauty-item-wrapper {
+  background-color: #fff;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+  overflow: hidden;
+}
+
+.beauty-item-img {
+  display: block;
+  width: 100%;
+  height: 280rpx;
+}
+
+.beauty-item-content {
+  top: 0;
+  right: 0;
+  display: flex;
+  padding-top: 10rpx;
+  padding-left: 16rpx;
+  padding-right: 16rpx;
+  padding-bottom: 26rpx;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.beauty-item-name {
+  font-size: 36rpx;
+  color: #4a90e2;
+}
+
+.beauty-item-marketprice {
+  font-size: 28rpx;
+  color: #000;
+  text-decoration: line-through;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.beauty-item-price {
+  font-size: 40rpx;
+  color: #fd678f;
+}
+
+.beauty-item-desc {
+  font-size: 24rpx;
+  color: #4a4a4a;
+  display: block;
+}

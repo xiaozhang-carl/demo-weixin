@@ -1,0 +1,74 @@
+/* pages/home/perm.wxss */
+
+page {
+  background: white;
+  height: 100%;
+}
+
+.banners {
+  width: 100%;
+  height: 800rpx;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.wrapper1 {
+  position: relative;
+  padding-left: 25rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  box-sizing: border-box;
+}
+
+.name {
+  display: block;
+  font-family: PingFangHK-Light;
+  font-size: 36rpx;
+  color: #000;
+  letter-spacing: 0;
+}
+
+.desc {
+  display: block;
+  font-family: PingFangHK-Light;
+  font-size: 26rpx;
+  color: #9b9b9b;
+}
+
+.price-wrapper {
+  display: inline-block;
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+}
+
+.market-price {
+  font-size: 36rpx;
+  color: #9b9b9b;
+  text-decoration: line-through;
+}
+
+.price {
+  font-family: PingFangHK-Regular;
+  font-size: 52rpx;
+  color: #877fd4;
+  margin-left: 8rpx;
+  text-decoration: line-through;
+}
+
+.sales-promotions {
+  font-family: PingFangHK-Light;
+  font-size: 14px;
+  color: #fd779b;
+  display: flex;
+  height: 100rpx;
+  justify-content: center;
+  align-items: center;
+}

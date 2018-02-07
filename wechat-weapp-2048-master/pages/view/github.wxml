@@ -1,0 +1,2 @@
+<!--pages/view/github.wxml-->
+<web-view src="{{url}}"></web-view>

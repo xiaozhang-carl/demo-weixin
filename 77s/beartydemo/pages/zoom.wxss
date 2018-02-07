@@ -1,0 +1,56 @@
+/* pages/zoom.wxss */
+
+page {
+  background: rgba(0, 0, 0, 0.85);
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  height: 46rpx;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.date {
+  font-size: 28rpx;
+  color: white;
+  margin-left: 28rpx;
+}
+
+.count {
+  font-size: 28rpx;
+  color: #ff4e63;
+  margin-right: 28rpx;
+}
+
+.img {
+  width: 100%;
+  height: 748rpx;
+  display: block;
+  padding-left: 28rpx;
+  padding-right: 28rpx;
+  box-sizing: border-box;
+}
+
+
+.wrapper2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.collection {
+  font-size: 28rpx;
+  color: #ff4e63;
+  margin-top: 12rpx;
+  margin-right: 28rpx;
+}
+

@@ -1,0 +1,118 @@
+/* pages/home/haircutstyle.wxss */
+
+.header {
+  display: block;
+  width: 100%;
+  height: 300rpx;
+  margin-bottom: 20rpx;
+}
+
+.haircut-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: -10rpx;
+}
+
+.line {
+  display: inline-block;
+  background: #2d2d2d;
+  height: 2rpx;
+  width: 54rpx;
+}
+
+.haircut {
+  display: inline-block;
+  font-family: PingFangHK-Light;
+  font-size: 28rpx;
+  color: #000;
+  width: 96rpx;
+  text-align: center;
+}
+
+.haircut-en {
+  font-family: PingFangHK-Light;
+  font-size: 24rpx;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: #9b9b9b;
+}
+
+.items-wraaper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 28rpx;
+  margin-right: 28rpx;
+}
+
+.item-wraaper {
+  display: inline-block;
+  width: 330rpx;
+  height: 480rpx;
+  margin-top: 40rpx;
+}
+
+.item-icon {
+  display: block;
+  width: 330rpx;
+  height: 330rpx;
+}
+
+.item-style {
+  display: block;
+  font-family: PingFangHK-Light;
+  font-size: 28rpx;
+  color: #4a4a4a;
+  margin-left: 10rpx;
+  margin-top: 20rpx;
+}
+
+.item-desc {
+  display: block;
+  font-family: PingFangHK-Light;
+  font-size: 24rpx;
+  color: #9b9b9b;
+  margin-left: 10rpx;
+   text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.item-price-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-lable1, .item-lable2 {
+  display: inline-block;
+  width: 48rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-family: PingFangHK-Regular;
+  font-size: 18rpx;
+  color: #9b9b9b;
+  border: 2rpx solid #9b9b9b;
+  text-align: center;
+  margin-left: 8rpx;
+  flex: none
+}
+
+.item-price {
+  font-family: PingFangHK-Regular;
+  font-size: 40rpx;
+  color: #877fd4;
+  flex-grow: 2;
+  margin-right: 10rpx;
+  text-align: right;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}

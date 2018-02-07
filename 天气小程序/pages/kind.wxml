@@ -1,0 +1,17 @@
+<!--pages/kind.wxml-->
+<view class="items-wraaper">
+  <!--一级分类  -->
+  <view class="item-wraaper-parent" wx:for="{{kinds}}" wx:key="{{index}}" wx:item="{{item}}">
+    <view class='item-groupName-wrapper' data-item="{{item}}" bindtap="clickParent">
+      <view class='item-groupName-line1' wx:if="{{item.isExpanded}}"></view>
+      <image class='item-icon' src='{{item.icon}}' mode='scaleToFill'></image>
+      <text class="item-groupName">{{item.groupName}}</text>
+      <view class='item-groupName-line2'></view>
+      <image class='item-arrow' src="{{item.isExpanded?'/resources/a_dropdown_gray.png':'/resources/a_dropup_gray.png'}}" mode='scaleToFill'></image>
+    </view>
+    <!--二级分类  -->
+    <view class="item-wraaper-child" wx:if="{{item.isExpanded}}">
+      <text class="item-childName {{item.childName==childName?'item-childName-checked':''}}" wx:for="{{item.childs}}" wx:key="{{index}}" wx:item="{{item}}" data-item="{{item}}" bindtap="clickChild">{{item.childName}}</text>
+    </view>
+  </view>
+</view>

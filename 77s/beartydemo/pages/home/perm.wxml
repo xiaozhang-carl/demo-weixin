@@ -1,0 +1,26 @@
+<!--pages/home/perm.wxml-->
+
+<scroll-view scroll-y>
+  <swiper class="banners" indicator-dots="true" autoplay="true" interval="5000" duration="500" indicator-color="#9B9B9B" indicator-active-color="#FF658E">
+    <block wx:for="{{banners}}" wx:key="{{index}}" wx:item="{{item}}">
+      <swiper-item>
+        <image class="banner" src="{{item}}" mode='scaleToFill' />
+      </swiper-item>
+    </block>
+  </swiper>
+
+
+  <view class="wrapper1">
+    <text class="name">烫发</text>
+    <text class="desc">进口UP负离子染剂</text>
+    <view class="price-wrapper">
+      <text class="market-price">¥230</text>
+      <text class="price">¥158.00</text>
+    </view>
+  </view>
+
+
+  <text class="sales-promotions">送：头皮护理1套，下次到店消费时免费享用</text>
+
+
+</scroll-view>

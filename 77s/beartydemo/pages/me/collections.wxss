@@ -1,0 +1,20 @@
+.items-wraaper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 24rpx;
+  margin-right: 24rpx;
+}
+
+.item-wraaper {
+  display: inline-block;
+  width: 220rpx;
+  height: 220rpx;
+  margin-top: 20rpx
+}
+
+.item-icon {
+  display: block;
+  width: 220rpx;
+  height: 220rpx;
+}

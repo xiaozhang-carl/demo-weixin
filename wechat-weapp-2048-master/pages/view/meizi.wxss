@@ -1,0 +1,36 @@
+/* pages/view/meizi.wxss */
+
+.item-wrapper {
+  display: flex;
+  margin: 16rpx;
+  height: 140rpx;
+  margin-right: 16rpx;
+  background: #6BAE23;
+  border-radius: 10rpx;
+  border-bottom: 0.5rpx solid gray;
+}
+
+.item-img {
+  position: absolute;
+  width: 120rpx;
+  height: 120rpx;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  border-radius: 10rpx;
+}
+
+.item-desc {
+  display: absolute;
+  font-size: 26rpx;
+  color: white;
+  margin-top: 10rpx;
+  margin-left: 144rpx;
+}
+
+.item-date {
+  position: absolute;
+  margin-top: 94rpx;
+  font-size: 24rpx;
+  color: white;
+  margin-left: 144rpx;
+}

@@ -1,0 +1,8 @@
+<!--pages/view/mei'zi.wxml-->
+<view wx:for="{{list}}" wx:key="{{index}}" wx:item="{{item}}">
+  <view class='item-wrapper' data-item="{{item}}" bindtap='goGithub'>
+    <image class='item-img' src="{{item.images[0]}}" data-item="{{item}}" catchtap='goSwiper'></image>
+    <label class='item-desc'>{{item.desc}}</label>
+    <text class='item-date'>{{item.publishedAt}}</text>
+  </view>
+</view>

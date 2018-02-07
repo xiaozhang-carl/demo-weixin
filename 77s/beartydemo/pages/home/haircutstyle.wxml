@@ -1,0 +1,28 @@
+<!--pages/home/haircutstyle.wxml-->
+<scroll-view scroll-y>
+
+  <image class="header" src="{{url}}" mode='scaleToFill' />
+
+  <view class='haircut-wrapper'>
+    <text class='line'></text>
+    <text class='haircut'>剪发</text>
+    <text class='line'></text>
+     <text class='haircut-en'>HAIRCUT</text>
+  </view>
+ 
+
+  <view class="items-wraaper">
+    <view class="item-wraaper" wx:for="{{list}}" wx:key="{{index}}" wx:item="{{item}}" data-item="{{item}}" bindtap="click">
+      <image class="item-icon" src="{{item.icon}}" mode='scaleToFill' />
+      <text class='item-style'>{{item.style}}</text>
+      <text class='item-desc'>{{item.desc}}</text>
+      <view class='item-price-wrapper'>
+        <text class='item-lable1'>{{item.lable1}}</text>
+        <text class='item-lable1'>{{item.lable2}}</text>
+        <text class='item-price'>{{item.price}}</text>
+      </view>
+    </view>
+
+  </view>
+
+</scroll-view>

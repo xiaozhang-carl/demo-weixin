@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/view/meizi",
+    "pages/view/switch",
+    "pages/view/swiper",
+    "pages/view/button",
+    "pages/view/search",
+    "pages/view/github",
+    "pages/view/widget"
+  ],
+  "tabBar": {
+    "color": "white",
+    "selectedColor": "#FD678F",
+    "borderStyle": "white",
+    "backgroundColor": "#6BAE23",
+    "list": [
+      {
+        "pagePath": "pages/view/meizi",
+        "text": "妹子"
+      
+      },
+      {
+        "pagePath": "pages/view/search",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/view/widget",
+        "text": "小组件"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#6BAE23",
+    "navigationBarTitleText": "gank",
+    "navigationBarTextStyle": "white"
+  }
+}

@@ -1,0 +1,52 @@
+/* pages/update.wxss */
+
+.wrapper1 {
+  display: flex;
+  background: #fff;
+  margin-top: 20rpx;
+}
+
+.auth {
+  display: inline-block;
+  height: 100rpx;
+  font-family: SIL-Hei-Med-Jian;
+  font-size: 28rpx;
+  color: #999;
+  margin-left: 30rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.input {
+  font-family: SIL-Hei-Med-Jian;
+  font-size: 28rpx;
+  height: 100rpx;
+  flex: 5;
+  color: #d2d2d2;
+  text-align: right;
+  margin-right: 30rpx;
+}
+
+.tip {
+  display: block;
+  font-family: SIL-Hei-Med-Jian;
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 24rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.btn {
+  background-color: rgba(26, 143, 251, 1.0);
+  font-family: SIL-Hei-Med-Jian;
+  font-size: 32rpx;
+  color: #fff;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 26rpx;
+}
+
+.other-button-hover {
+  background-color: rgba(26, 143, 251, 0.6);
+}

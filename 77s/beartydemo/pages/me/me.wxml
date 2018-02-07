@@ -1,0 +1,15 @@
+<!--pages/me/me.wxml-->
+
+<view class="header">
+  <image class="header-bg" src="../../img/bg_spring.png"></image>
+  <image class="user-icon" src="{{userInfo.avatarUrl}}"></image>
+  <text class="user-name">{{userInfo.nickName}}</text>
+</view>
+
+
+<view class="items-wrapper">
+  <view class="item-wraaper" wx:for="{{items}}" wx:key="{{index}}" wx:item="{{item}}" data-item="{{item}}" bindtap="click">
+    <image class="item-icon" src="{{item.icon}}" mode='scaleToFill' />
+    <text class="item-name">{{item.name}}</text>
+  </view>
+</view>

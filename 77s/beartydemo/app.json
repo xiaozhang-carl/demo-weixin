@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/me/me",
+    "pages/hair_stylist/hair_stylist",
+    "pages/me/history",
+    "pages/me/collections",
+    "pages/zoom",
+    "pages/home/perm",
+    "pages/home/haircut",
+    "pages/me/coupon",
+    "pages/home/haircutstyle"
+  ],
+  "tabBar": {
+    "color": "#9B9B9B",
+    "selectedColor": "#FD678F",
+    "borderStyle": "#9B9B9B",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "img/home_unselected.png",
+        "selectedIconPath": "img/home_selected.png"
+      },
+      {
+        "pagePath": "pages/hair_stylist/hair_stylist",
+        "text": "手艺人",
+        "iconPath": "img/hair_stylist_unselected.png",
+        "selectedIconPath": "img/hair_stylist_selected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "img/me_unselected.png",
+        "selectedIconPath": "img/me_selected.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "美容美发",
+    "navigationBarTextStyle": "black"
+  }
+}

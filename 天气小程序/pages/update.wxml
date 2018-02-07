@@ -1,0 +1,10 @@
+<!--pages/update.wxml-->
+<view class='wrapper1'>
+  <text class='auth'>授权码</text>
+  <input class='input' type="digit" placeholder="请输入授权码"></input>
+</view>
+
+<text class='tip'>* 提示：尊享版升级为荣耀版，可以享受跟多特权和为会拥有自己
+的店铺小程序，为店铺大大增加流量哦！</text>
+
+<button class='btn' hover-class="other-button-hover">我要升级</button>

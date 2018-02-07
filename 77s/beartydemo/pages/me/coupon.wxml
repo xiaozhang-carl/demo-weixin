@@ -1,0 +1,15 @@
+<!--pages/me/coupon.wxml-->
+<image class="header" src="{{url}}" mode='scaleToFill' />
+
+<view class="items-wrapper">
+  <view class="item-wrapper" wx:for="{{ list}}" wx:key="{{index}}" wx:item="{{item}}" data-item="{{item}}">
+  <image class="item-bg" src="../../img/ic_coupon_item_bg.png" mode='scaleToFill' />
+    <view class="item-content">
+      <text class="item-price">{{item.price}}</text>
+      <text class="item-desc">{{item.desc}}</text>
+      <text class="item-date">{{item.date}}</text>
+    </view>
+    <text class="item-use">去使用></text>
+     
+  </view>
+</view>

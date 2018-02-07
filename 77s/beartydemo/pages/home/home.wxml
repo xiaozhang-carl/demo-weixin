@@ -1,0 +1,51 @@
+<!--pages/home/home.wxml-->
+
+<scroll-view scroll-y>
+  <!-- 广告图 -->
+  <swiper class="banners" indicator-dots="true" autoplay="true" interval="5000" duration="500"
+  indicator-color="#9B9B9B" indicator-active-color="#FF658E">
+    <block wx:for="{{banners}}" wx:key="{{index}}" wx:item="{{item}}">
+      <swiper-item>
+        <image class="banner" src="{{item}}" mode='scaleToFill' />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <!--菜单栏  -->
+  <view class="bg">
+    <view>
+      <view class='menu-wrapper' wx:for="{{ menus}}" wx:key="{{index}}" wx:item="{{item}}" data-item="{{item}}" bindtap="clickMenu">
+        <text class='menu-name'>{{item.name}}</text>
+        <text class='menu-en'>{{item.en}}</text>
+        <view wx:if="{{index<4}}" class='menu-line'></view>
+      </view>
+    </view>
+
+    <image class='home-img1' src="../../img/home_img1.png" mode='scaleToFill'></image>
+
+    <view class='home-img23-wrapper'>
+      <image class='home-img2' src="../../img/banner2.png" mode='scaleToFill'></image>
+      <image class='home-img3' src="../../img/banner3.png" mode='scaleToFill'></image>
+    </view>
+  </view>
+  <!-- 推荐项目 -->
+  <view class='beauty-items-team'>
+    <text class='triangle'></text>
+    <text class='beauty-items'>推荐项目</text>
+    <text class='beauty-items-en'>Beauty items</text>
+  </view>
+  <view class='beauty-items-wrapper'>
+    <view class='beauty-item-wrapper' wx:for="{{beautyitems}}" wx:key="{{index}}" wx:item="{{item}}" data-item="{{item}}">
+      <image class='beauty-item-img' src="../../img/home_img1.png" mode='scaleToFill'></image>
+      <view class='beauty-item-content'>
+        <text class='beauty-item-name'>{{item.name}}</text>
+        <text class='beauty-item-marketprice'>{{item.marketPrice}}</text>
+        <text class='beauty-item-price'>{{item.price}}</text>
+        <text class='beauty-item-desc'>{{item.desc}}</text>
+      </view>
+
+    </view>
+  </view>
+
+
+</scroll-view>

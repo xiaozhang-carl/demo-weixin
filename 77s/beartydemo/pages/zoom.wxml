@@ -1,0 +1,12 @@
+<!--pages/zoom.wxml-->
+
+<view class="container">
+  <view class="wrapper">
+    <text class="date">2018年1月1日</text>
+    <text class="count">216 人收藏</text>
+  </view>
+  <image class="img" src="{{url}}" mode='scaleToFill' />
+   <view class="wrapper2">
+    <text class="collection">我要收藏</text>
+  </view>
+</view>
