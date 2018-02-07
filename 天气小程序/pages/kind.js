@@ -99,7 +99,6 @@ Page({
    */
   onLoad: function (options) {
     // 监听 msg 事件
-    var _this=this;
     eventProxy.on('msg', (msg) => {
       console.log(this)
       this.setData({

@@ -7,6 +7,8 @@
 
 .item-groupName-wrapper {
   display: flex;
+  height: 100rpx;
+  align-items: center;
   position: relative;
 }
 
@@ -23,51 +25,40 @@
   width: 28rpx;
   height: 28rpx;
   margin-left: 30rpx;
-  margin-top: 34rpx;
 }
 
-.item-groupName-line2 {
-  height: 1rpx;
-  background: #ddd;
-  left: 30rpx;
-  top: 100rpx;
-  right: 30rpx;
-  margin: auto;
-  position: absolute;
+.item-groupName {
+  font-family: SIL-Hei-Med-Jian;
+  font-size: 32rpx;
+  color: #333;
+  flex: 1;
+  margin-left: 20rpx;
 }
 
 .item-arrow {
   width: 20rpx;
   height: 20rpx;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 30rpx;
-  margin: auto;
+  margin-right: 30rpx;
 }
 
-.item-groupName {
-  height: 100rpx;
-  text-align: center;
-  line-height: 100rpx;
-  font-family: SIL-Hei-Med-Jian;
-  font-size: 32rpx;
-  color: #333;
-  margin-left: 20rpx;
+.item-groupName-line2 {
+  height: 1rpx;
+  background: #ddd;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  display: flex;
 }
 
 .item-wraaper-child {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
-  align-content: flex-start;
-  padding: 15rpx;
+  padding: 2%;
 }
 
 .item-childName {
   display: inline-block;
-  margin: 15rpx;
-  width: 210rpx;
+  margin: 2%;
+  width: 29.16%;
   height: 70rpx;
   line-height: 70rpx;
   text-align: center;
